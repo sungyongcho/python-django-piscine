@@ -1,26 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="mystyle.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Progress Bar Example</title>
 </head>
 
 <body>
+	<div>
+		<li>
+			<h2>Frontend</h2>
 
-	<div class="progress">
-		<p data-value="25">Category 1</p>
-		<p data-value="50">Category 2</p>
-		<p data-value="75">Category 3</p>
-		<p data-value="100">Category 4</p>
+			<p class="one" data-value="80">HTML5</p>
+			<progress class="html5" value="80" max="100"></progress>
+
+			<p class="one" data-value="60">CSS3</p>
+			<progress class="html5" value="60" max="100"></progress>
+
+			<p class="one" data-value="50">jQuery</p>
+			<progress class="html5" value="50" max="100"></progress>
+		</li>
 	</div>
 
-	<div id="content">
-		<h1>Main Content</h1>
-		<p>This is the main content of your page.</p>
-	</div>
-	<h1>This is a heading</h1>
-	<p>This is a paragraph.</p>
+	<div>
+		<li>
+			<h2>Backend</h2>
 
+			<p class="one" data-value="75">Python</p>
+			<progress class="html5" value="75" max="100"></progress>
+
+			<p class="one" data-value="65">PHP</p>
+			<progress class="html5" value="65" max="100"></progress>
+
+			<p class="one" data-value="35">Node.js</p>
+			<progress class="html5" value="35" max="100"></progress>
+
+		</li>
+	</div>
+
+	</div>
 </body>
 
 </html>
